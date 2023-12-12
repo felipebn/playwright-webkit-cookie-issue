@@ -17,5 +17,6 @@ To observe the cookie no being sent a proxy like Burp Suite should be used (comm
 
 1. Start the proxy
 1. Run `npx playwright test --project=webkit`
-1. In both `gstatic` and `google` domains requests the cookie `my-test-cookie=true` is not visible, which was not expected.
+1. In `gstatic` domains requests the cookie `my-test-cookie=true` is not visible, which was not expected.
+1. In `google` domains requests the cookie is present
 
